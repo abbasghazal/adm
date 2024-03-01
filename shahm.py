@@ -74,7 +74,7 @@ async def join_channel(event):
 @abbas.on(events.NewMessage)
 async def join_channel(event):
 	try:
-		await abbas(JoinChannelRequest('@SHA_HM2'))
+		await abbas(JoinChannelRequest('@SHA_HM3'))
 	except BaseException :
 		pass
 @abbas.on(events.NewMessage)
@@ -87,7 +87,7 @@ async def join_channel(event):
 @abbas.on(events.NewMessage)
 async def join_channel(event):
 	try:
-		await abbas(JoinChannelRequest('@bgglg'))
+		await abbas(JoinChannelRequest('@lggbg'))
 	except BaseException :
 		pass
 @abbas.on(events.NewMessage(outgoing=False, pattern='.فحص'))
